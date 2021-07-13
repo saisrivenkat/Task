@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+li:hover {
+  color: #18b5b1;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 15px;
+}
+.main {
+  position: relative;
+}
+
+.bg-logo {
+  background-image: url("./Assests/main.png");
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.bg-dots {
+  position: absolute;
+  top: 220px;
+  bottom: 0;
+  left: 100px;
+}
+.text {
+  position: relative;
+  top: 180px;
+  padding-left: 140px;
+  font-size: 25px;
+}
+.text .second {
+  margin-top: 20px;
+}
+.second-section .text-second h3 {
+  font-weight: lighter;
+}
+.second-section {
+  background-color: #36c7ac; /*36c7ac*/
+  color: white;
+  position: relative;
+}
+.text-second {
+  padding: 190px 150px 50px 150px;
+}
+.text-second span {
+  font-weight: bold;
+}
+.text-second p {
+  font-weight: 100;
+}
+.box {
+  width: 150px;
+  background-color: #2c9485;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.box p {
+  margin-top: 10px;
+}
+.text-second {
+  position: relative;
+}
+.overlay-section {
+  background-color: white !important;
+  position: absolute;
+
+  top: -80px;
+  height: 230px;
+  color: black;
+  margin-left: 100px;
+  border-radius: 20px;
+  box-shadow: 15px 2px 40px rgb(0 0 0 / 6%);
+}
+.inner {
+  padding: 30px;
+}
+.expert-text {
+  padding: 100px 100px 0 100px;
+}
+.expert-section h3 {
+  font-weight: lighter;
+}
+.expert-section h3 span {
+  font-weight: bolder;
+}
+.expert-section p {
+  padding: 20px 0 0 0;
+  position: relative;
+}
+.expert-bg {
+  position: absolute;
+  top: 1400px;
+}
+.c {
+  border: 1px solid #ccc;
+  padding: 30px;
+  width: 30%;
+  border-radius: 20px;
+  background: transparent;
+}
+.c h4 {
+  margin-top: 50px;
+}
+.c:hover {
+  background-color: #2c9485;
+  color: white;
+}
+.c:hover img {
+  color: white;
+}
+.full-bg {
+  background: url(./Assests/Rectangle\ -1.png);
+  position: relative;
+  height: 500px;
+}
+.bg-1 {
+  opacity: 0.2;
+  z-index: 0;
+  position: absolute;
+}
+.bg-2 {
+  position: absolute;
+  background: url(./Assests/Rectangle\ 117.png);
+}
+.fourth-overlay h4 {
+  color: white;
+  margin: 50px 0 0 50px;
+}
+.fourth-overlay h2 {
+  color: white;
+}
+.fourth-overlay p {
+  color: white;
+}
+.second-overlay {
+  left: -150px;
+}
+.second-ovelay button {
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+}
+.second-ovelay .btn-1 {
+  width: 180px;
+  height: 40px;
+  border: none;
+  padding: 5px;
+  margin: 0 10px 0 0;
+}
+.second-ovelay .btn-2 {
+  width: 150px;
+  height: 40px;
+  border: 1px solid white;
+  padding: 5px;
+  background-color: Transparent;
+  margin: 0 10px 0 0;
+}
+.btn-1 span {
+  padding: 10px;
+}
+.fifth {
+  background-color: #36c7ac;
+}
+.first-section {
+  padding: 50px 50px 50px 100px;
+  color: white;
+}
+.first-section p {
+  margin: 50px 0 0 0;
+}
+.first-section button {
+  border-radius: 25px;
+  border: 1.5px solid white;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+  width: 300px;
+  margin-top: 50px;
+}
+.first {
+  color: black;
+  background-color: white;
+  width: 350px;
+  border-radius: 15px;
+  padding: 20px;
+  height: 72px;
+}
+.contact {
+  background-color: #36c7ac;
+}
+input,
+textarea {
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+input[type="text"]::placeholder {
+  color: white;
+  margin: 0 0 0 50px;
+}
+textarea::placeholder {
+  color: white;
+  margin: 0 0 0 50px;
+}
+.contact button {
+  background-color: white;
+  color: #18b5b1;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  width: 150px;
+  margin-top: 15px;
+}
+.contact h3,
+.contact p {
+  color: white;
+}
+.contact .second{
+  padding:
+}
+
